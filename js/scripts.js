@@ -1,16 +1,18 @@
-drawTree(15);
+drawTree(1);
+drawTree(2);
+drawTree(10);
 function drawTree(liczba){
 	
-	for (var i=0; i<=liczba; i++){
+	for (var i=1; i<=liczba; i++){
 			
 
 		var star = '';
 			spacja = '';
 
 		
-		for (var j=0; j<=i; j++){
+		for (var j=1; j<=i; j++){
 			
-			if (j==0){
+			if (j==1){
 				star += '*';
 			}
 
